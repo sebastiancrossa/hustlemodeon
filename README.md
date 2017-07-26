@@ -1,2 +1,2 @@
-# hustlemodeon
+# Hustle Mode
 Hustle mode on.
