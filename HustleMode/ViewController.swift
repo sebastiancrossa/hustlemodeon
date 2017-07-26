@@ -20,14 +20,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var hustleLbl: UILabel!
     @IBOutlet weak var onLbl: UILabel!
     
+    // Create a player
     var player : AVAudioPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Have the player locate the audio file correctly
         let path = Bundle.main.path(forResource: "hustle-on", ofType: "wav")!
         let url = URL(fileURLWithPath: path)
         
+        // If it finds it, it will prepare to play. If not, it will print an error
         do {
             player = try AVAudioPlayer(contentsOf: url)
             player.prepareToPlay()
