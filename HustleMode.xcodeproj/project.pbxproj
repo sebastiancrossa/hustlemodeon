@@ -12,6 +12,7 @@
 		985C26751F28446100680F4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985C26731F28446100680F4C /* Main.storyboard */; };
 		985C26771F28446100680F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985C26761F28446100680F4C /* Assets.xcassets */; };
 		985C267A1F28446100680F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985C26781F28446100680F4C /* LaunchScreen.storyboard */; };
+		985C26821F284BB100680F4C /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 985C26811F284BB100680F4C /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		985C26761F28446100680F4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		985C26791F28446100680F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		985C267B1F28446100680F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		985C26811F284BB100680F4C /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "hustle-on.wav"; path = "../../../../Downloads/hustle-mode-code-assets/assets/Assets/hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				985C26711F28446100680F4C /* ViewController.swift */,
 				985C26731F28446100680F4C /* Main.storyboard */,
 				985C26761F28446100680F4C /* Assets.xcassets */,
+				985C26811F284BB100680F4C /* hustle-on.wav */,
 				985C26781F28446100680F4C /* LaunchScreen.storyboard */,
 				985C267B1F28446100680F4C /* Info.plist */,
 			);
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985C26821F284BB100680F4C /* hustle-on.wav in Resources */,
 				985C267A1F28446100680F4C /* LaunchScreen.storyboard in Resources */,
 				985C26771F28446100680F4C /* Assets.xcassets in Resources */,
 				985C26751F28446100680F4C /* Main.storyboard in Resources */,
